@@ -1,19 +1,19 @@
 # Underground Doctor – FiveM Script
 
-Dette scriptet gir deg en undergrunns-doktor NPC som kan "revive" døde spillere mot betaling i kontanter, med 30 minutters cooldown og progressbar. Laget for QBCore, med støtte for både `ox_target` og (valgfritt) `ox_lib`.
+This script adds an underground doctor NPC that can revive dead players for a cash fee, with a 30-minute cooldown and a progress bar. Made for QBCore, supporting `ox_target` and (optionally) `ox_lib`.
 
 ---
 
-## 🚀 Installasjon
+## 🚀 Installation
 
-1. **Last ned og pakk ut** mappen `undergrounddoctor` til din `resources`-mappe.
+1. **Download and extract** the `undergrounddoctor` folder into your `resources` directory.
 
-2. **Installer dependencies:**
+2. **Install dependencies:**
    - [ox_target](https://github.com/overextended/ox_target)
-   - *(Valgfritt men anbefalt)* [ox_lib](https://github.com/overextended/ox_lib) – for finere progressbar og notifikasjoner.
+   - *(Optional but recommended)* [ox_lib](https://github.com/overextended/ox_lib) – for nicer progress bars and notifications.
 
-3. **Legg til i server.cfg:**
+3. **Add to your `server.cfg`:**
    ```cfg
    ensure ox_target
-   ensure ox_lib        # (valgfritt, men anbefales for best opplevelse)
+   ensure ox_lib        # (optional, but recommended for best experience)
    ensure undergrounddoctor
